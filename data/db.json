@@ -1,0 +1,22 @@
+{
+  "notes":[
+    {
+      "title": "note one",
+      "details": "details one",
+      "category": "category one",
+      "id": 1
+    },
+    {
+      "title": "note two",
+      "details": "details two",
+      "category": "category two",
+      "id": 2
+    },
+    {
+      "title": "note one",
+      "details": "details three",
+      "category": "category three",
+      "id": 3
+    }
+  ]
+}

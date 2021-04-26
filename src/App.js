@@ -33,13 +33,17 @@ function App() {
     setNameError(false);
     setDetailsError(false)
 
-    if(name && details){
-      console.log(name, details, category)
-    }else if(nameError == '' && detailsError == ''){
+    if(name === ''){
       setNameError(true)
+    }
+
+    if(details === ''){
       setDetailsError(true)
     }
 
+    if(name && details){
+      console.log(name, details, category)
+    }
   }
 
   return (
